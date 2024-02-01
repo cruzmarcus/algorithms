@@ -1,4 +1,4 @@
-# Finde the greatest commum denominator of two numbers
+# Find the greatest commum denominator of two numbers
 # using Euclid's algorithm
 
 def greatest_commum_denominator(a: int, b: int) -> int: 
