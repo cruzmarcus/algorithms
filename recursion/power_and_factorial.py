@@ -4,15 +4,15 @@
 def power(num, pwr):
     if pwr == 0:
         return 1
-    
+
     return num * power(num, pwr - 1)
+
 
 def factorial(num):
     if num == 0:
         return 1
-    
-    return num * factorial(num - 1)
 
+    return num * factorial(num - 1)
 
 
 print(f"5 to power of 3 is {power(5, 3)}")
