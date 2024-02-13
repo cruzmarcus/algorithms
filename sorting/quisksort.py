@@ -21,15 +21,15 @@ def partition(data_values: list, first: int, last: int) -> list:
 
     done = False
     while not done:
-        # TODO: advance the lower index
+        # advance the lower index
         while lower <= upper and data_values[lower] <= pivot_value:
             lower += 1
 
-        # TODO: advance the upper index
+        # advance the upper index
         while data_values[upper] >= pivot_value and upper >= lower:
             upper -= 1
 
-        # TODO: if the two indexes cross, wht have found the split point
+        # if the two indexes cross, wht have found the split point
         if upper < lower:
             done = True
         else:
